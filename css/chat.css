@@ -183,6 +183,7 @@
 }
 
 @media screen and (max-width: 550px) {
+@media screen and (max-height: 700px) {
   .chat__write:focus {
     transform: translateY(-20px);
   }
