@@ -64,7 +64,7 @@
 .chat__write:focus {
   outline: none;
   width: 80%;
-  transform: translateY(-100px);
+  transform: translateY(-80px);
   border-radius: 40px;
   box-shadow: 0 13px 27px -12px rgba(50, 50, 93, 0.25),
     0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
@@ -182,7 +182,7 @@
   animation: sentAnim 0.5s ease-in forwards;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-height: 700px) {
   .chat__write:focus {
     transform: translateY(-20px);
   }
