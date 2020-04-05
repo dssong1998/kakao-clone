@@ -181,3 +181,9 @@
 .sent-message {
   animation: sentAnim 0.5s ease-in forwards;
 }
+
+@media screen and (max-width: 550px) {
+  .chat__write:focus {
+    transform: translateY(-20px);
+  }
+}
